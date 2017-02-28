@@ -1,0 +1,9 @@
+*.iml
+/mobile-apps-wr/.gradle
+/mobile-apps-wr/local.properties
+/mobile-apps-wr/.idea/workspace.xml
+/mobile-apps-wr/.idea/libraries
+/mobile-apps-wr/.DS_Store
+/mobile-apps-wr/build
+/mobile-apps-wr/captures
+/mobile-apps-wr/.externalNativeBuild

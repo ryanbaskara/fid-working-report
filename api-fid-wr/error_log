@@ -1,0 +1,7 @@
+[22-Aug-2016 13:03:35 Asia/Jakarta] PHP Warning:  mysqli::mysqli(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/idfuucom/public_html/api-fid-wr/lib/mysql.php on line 7
+[22-Aug-2016 13:03:35 Asia/Jakarta] PHP Warning:  mysqli::mysqli(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/idfuucom/public_html/api-fid-wr/lib/mysql.php on line 7
+[22-Aug-2016 13:03:35 Asia/Jakarta] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home/idfuucom/public_html/api-fid-wr/lib/extend-function.php on line 6
+[22-Aug-2016 13:03:35 Asia/Jakarta] PHP Warning:  mysqli_real_escape_string(): Couldn't fetch mysqli in /home/idfuucom/public_html/api-fid-wr/lib/extend-function.php on line 7
+[22-Aug-2016 13:03:35 Asia/Jakarta] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/idfuucom/public_html/api-fid-wr/lib/extend-function.php on line 9
+[22-Aug-2016 13:03:35 Asia/Jakarta] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/idfuucom/public_html/api-fid-wr/lib/extend-function.php on line 10
+[22-Aug-2016 13:03:35 Asia/Jakarta] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/idfuucom/public_html/api-fid-wr/lib/extend-function.php on line 11

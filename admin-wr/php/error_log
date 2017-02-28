@@ -1,0 +1,4 @@
+[21-Aug-2016 20:59:21 Asia/Jakarta] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/idfuucom/public_html/admin-wr/php/logout.php on line 9
+[21-Aug-2016 20:59:21 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/idfuucom/public_html/admin-wr/php/logout.php:9) in /home/idfuucom/public_html/admin-wr/php/logout.php on line 13
+[21-Aug-2016 21:08:59 Asia/Jakarta] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/idfuucom/public_html/admin-wr/php/check-login.php:4) in /home/idfuucom/public_html/admin-wr/php/check-login.php on line 9
+[24-Aug-2016 15:44:03 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'header' (T_STRING), expecting ',' or ';' in /home/idfuucom/public_html/admin-wr/php/new-employee.php on line 39

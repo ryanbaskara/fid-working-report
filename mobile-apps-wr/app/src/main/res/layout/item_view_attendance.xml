@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tableLayout21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="-20dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:background="@drawable/bg_gray"
+                android:textAllCaps="true"
+                android:text=""
+                android:id="@+id/name"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp" />
+            <TableLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_vertical"
+                android:layout_span="10"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="July 2016"
+                    android:id="@+id/date"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Attended 21 days"
+                    android:id="@+id/attended"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="Total: 34.00 (Overtime: 00.00)"
+                    android:textSize="16dp"
+                    android:id="@+id/time"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="customer name"
+                    android:textSize="16dp"
+                    android:id="@+id/customer_name"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="project name"
+                    android:textSize="16dp"
+                    android:id="@+id/project_name"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:text="wo number"
+                    android:textSize="16dp"
+                    android:id="@+id/wo_number"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+            </TableLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

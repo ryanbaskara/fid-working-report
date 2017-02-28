@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"
+            android:checked="true"/>
+        <item
+            android:id="@+id/item_write"
+            android:checkable="false"
+            android:icon="@drawable/ic_action_edit"
+            android:title="Write Attendance"/>
+        <item
+            android:id="@+id/item_view"
+            android:checkable="false"
+            android:icon="@drawable/ic_library_books_black"
+            android:title="View Attendance"/>
+        <item
+            android:id="@+id/item_notification"
+            android:checkable="false"
+            android:icon="@drawable/ic_notifications_none"
+            android:title="Notification"/>
+        <item
+            android:id="@+id/item_logout"
+            android:icon="@drawable/ic_action_exit"
+            android:title="Logout"/>
+    </group>
+</menu>

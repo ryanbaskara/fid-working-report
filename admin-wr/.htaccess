@@ -1,0 +1,30 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+#RewriteRule ^([^\.]+)$ $1.php [L]
+RewriteRule ^login$ login.php [L]
+RewriteRule ^login;user-not-found$ login.php?error=1 [L]
+RewriteRule ^login;username-password-doesn't-match$ login.php?error=2 [L]
+RewriteRule ^logout$ php/logout.php [L]
+RewriteRule ^auth$ php/auth.php [L]
+RewriteRule ^check-login$ php/check-login.php [L]
+RewriteRule ^config$ php/config.php [L]
+RewriteRule ^register-employee-post$ php/new-employee.php [L]
+RewriteRule ^working-report$ working-report.php [L]
+RewriteRule ^employee$ view-employee.php [L]
+RewriteRule ^register-employee$ register-employee.php [L]
+RewriteRule ^working-report/(.*)/(.*)$ working-report.php?month=$1&year=$2 [L]
+RewriteRule ^detail-attended/(.*)/(.*)/(.*)$ detail-attend.php?month=$1&year=$2&id=$3 [L]
+RewriteRule ^export-month/(.*)/(.*)/(.*)$ php/export-month.php?month=$1&year=$2&id=$3 [L]
+RewriteRule ^export-general/(.*)/(.*)$ php/export-general.php?month=$1&year=$2 [L]
+RewriteRule ^detail-attend$ detail-attend.php [L]
+RewriteRule ^update-employee$ php/update-employee.php [L]
+RewriteRule ^update-attended$ php/update-attended.php [L]
+RewriteRule ^update-month-attended$ php/update-month-attended.php [L]
+RewriteRule ^notification$ notification.php [L]
+RewriteRule ^notification_post$ php/notif.php [L]
+
+
+DirectoryIndex login.php
+Options All -Indexes
+</IfModule>
